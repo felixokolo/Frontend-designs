@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+body {
+  background: #f2f2f2;
+}
+
+.background {
+  background: black;
+  margin-top: 20vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: .4em;
+  padding: .2em;
+}
+
+.hero {
+  display: block;
+  background: #f2f2f2;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2em;
+  padding-top: 2em;
+  text-align: center;
+  font-family: 'Poppins';
+  border-radius: .2em;
+}
+
+.hero img {
+  display: block;
+  height: 5em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero h2 {
+  display: block;
+  font-size: 1.1em;
+  font-style: normal;
+  letter-spacing: .01em;
+  padding: 0;
+  border: 0;
+  margin-top: 1em;
+  margin-bottom: .5em;
+  text-align: center;
+}
+
+.hero p {
+  display: block;
+  margin-top: 1em;
+  border: 0;
+  padding: 0;
+}
+
+.hero p span {
+  display: block;
+}
+
+.hero a {
+  display: block;
+  text-decoration: none;
+  background-image: -webkit-gradient(linear, left top, right top, from(#d46e1a), to(#ad0f44));
+  background-image: linear-gradient(to right, #d46e1a, #ad0f44);
+  border-radius: .2em;
+  color: white;
+  margin-top: 3em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: .5em 1em .5em 1em;
+  width: 15em;
+}
+
+.hero a:hover {
+  font-size: large;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 5em;
+}
+
+.nav a {
+  display: block;
+  width: 5em;
+  text-align: center;
+  padding: .5em;
+  text-decoration: none;
+  background: #df9b09;
+  color: white;
+  border-radius: 2em;
+}
+
+.nav .prev-button {
+  float: left;
+  margin-right: auto;
+  margin-left: 2em;
+}
+
+.nav .next-button {
+  float: right;
+  margin-right: 2em;
+}
+/*# sourceMappingURL=main.css.map */
