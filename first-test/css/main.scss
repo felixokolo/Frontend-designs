@@ -6,7 +6,7 @@ body {
 
 .background {
   background: black;
-  margin-top: 20vh;
+  margin-top: 10vh;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -75,12 +75,7 @@ body {
   }
 }
 
-.nav {
-  display: flex;
-  margin-top: 5em;
-
-
-  a {
+.nav a, #hider, #show {
     display: block;
     width: 5em;
     text-align: center;
@@ -90,6 +85,10 @@ body {
     color: white;
     border-radius: 2em;
   }
+
+.nav {
+  display: flex;
+  margin-top: 5em;
 
   .prev-button {
     float: left;
@@ -101,4 +100,26 @@ body {
     float: right;
     margin-right: 2em;
   }
+}
+
+#hider, #show {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5em;
+}
+
+#show {
+  display: none;
+}
+
+.hidest {
+  display: none;
+}
+
+.unvailflex {
+  display: flex;
+}
+
+.unvailblock {
+  display: block;
 }

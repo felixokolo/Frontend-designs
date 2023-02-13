@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+:root {
+  --primary-color: #634000
+}
+
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Poppins';
+}
+
+.complete {
+  display: block;
+}
+
+img {
+  display: flex;
+  width: 2em;
+  height: 2em;
+  size: 2em;
+}
+
+.header{
+  background: var(--primary-color);
+  display: flex;
+  border: 0;
+  width: 100%;
+  position: sticky;
+  top: 0;
+}
+
+
+
+.menu-search {
+  display: flex;
+  float: right;
+  background: #f2f2f2;
+  margin: .2em;
+  width: 100%;
+  border-radius: .3em;
+}
+
+input {
+  display: flex;
+  width: 100%;
+  outline: none;
+  border: 1em;
+  float: left;
+  font-size: large;
+  margin-left: 1em;
+
+}
+
+
+#cart {
+  display: flex;
+  float: right; 
+  margin-left: .3em;
+  margin-right: .9em;
+}
+
+#menu {
+  margin-left: .5em;
+}
+
+.hero {
+  display: block;
+  margin-top: 6em;
+
+
+  p {
+    display: block;
+  }
+}
+
+.foot {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  background: white;
+  width: 100%;
+
+  img {
+    margin-left: auto;
+    margin-right: auto
+  }
+}
